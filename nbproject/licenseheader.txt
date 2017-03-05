@@ -1,0 +1,13 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}***********************************************************************************************************************
+${licensePrefix}Copyright (c) ${date?date?string("yyyy")} OwlGaming Community - All Rights Reserved
+${licensePrefix}All rights reserved. This program and the accompanying materials are private property belongs to OwlGaming Community
+${licensePrefix}Unauthorized copying of this file, via any medium is strictly prohibited
+${licensePrefix}Proprietary and confidential
+${licensePrefix}Last updated by ${project.organization!user}, ${date?date?string("dd-MM-yyyy")}
+${licensePrefix}***********************************************************************************************************************
+<#if licenseLast??>
+${licenseLast}
+</#if>
